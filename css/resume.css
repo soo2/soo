@@ -177,7 +177,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: rgba(0, 0, 0, 0.64) !important;
+  background-color: 	#2E4A62 !important;
 }
 
 .text-primary {
@@ -193,5 +193,26 @@ a:hover, a:focus, a:active {
 }
 
 .bg-1 {
-  background-color:#ececec !important;
+  background-image: url("../img/preview2.jpg");
+}
+
+body, html {
+  height: 100% !important;
+  margin: 0 !important;
+  background-color: whitesmoke;
+
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../img/preview.jpg");
+  
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
